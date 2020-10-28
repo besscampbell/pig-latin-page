@@ -1,12 +1,22 @@
-# _{Application Name}_
+# _Pig Latin Generator_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _Generates pig Latin based on user input, 28.oct.2020_
 
-#### By _**{List of contributors}**_
+#### By _**Bess Campbell & Jeff Chiu**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This is a pig latin generator. Users will be asked to input a string and after clicking a submit button, the page will output the string as pig latin._
+
+## Testing
+| Test | Input | Output |
+| :------------ | :------------------------------- | :------------- |
+| Pig Latin Generator |||
+| Should correctly return 'way' with words beginning wtih a vowel | elephant | 'elephantway' |
+| Should correctly take words beginning with consonants and move them to the end and add 'ay' | dog | 'ogday' |
+| Should correctly take words beginning with upper case characters and translate them | Cat | 'atcay' |
+| Should correctly take words beginning with 'qu' and move the 'u' wtih the 'q' | quantity | 'antityquay" |
+| Should correctly take full sentences and translate s
 
 ## Setup/Installation Requirements
 
